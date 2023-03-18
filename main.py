@@ -16,6 +16,11 @@ sentences_list = [
 
 
 def create_blanc_list(list1):
+    """
+
+    :param list1:
+    :return:
+    """
     blank_list = []
     for word in list1:
         blank_str = ''
@@ -27,7 +32,6 @@ def create_blanc_list(list1):
 
 def get_a_guess(chosen_list, guess_display):
     points = 0
-    start = 0.0
     start = time.time()
     while guess_display != chosen_list:
         guess = input('Enter your guess: ')
@@ -70,8 +74,7 @@ def play_game():
     play = True
     while play:
         print('welcome to guess game, HAVE FUN:-)')
-        selected_number = random.randint(0, 9)
-        sentence = sentences_list[selected_number]
+        sentence = random.choice(sentences_list)
         display = create_blanc_list(sentence)
         print(display)
         points = get_a_guess(sentence, display)
