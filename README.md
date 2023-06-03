@@ -1,17 +1,10 @@
 # pythonProject_1_Guess_game
 # Guess Game
 
-This is a simple word guessing game where the player needs to guess the missing letters in a sentence. Each correct guess earns points, while incorrect guesses result in a deduction of points. The player has a time limit to complete each round, and a bonus is awarded if the round is completed within the time limit.
+This is a simple word guessing game where the player needs to guess the missing letters in a sentence. 
+Each correct guess earns points, while incorrect guesses result in a deduction of points. 
+The player has a time limit to complete each round, and a bonus is awarded if the round is completed within the time limit.
 
-## Installation
-
-To run the game, you need to have Python installed on your system. Clone or download the project files and run the `guess_game.py` script.
-
-```bash
-git clone https://github.com/your-username/guess-game.git
-cd guess-game
-python3 guess_game.py
-```
 
 ## Gameplay
 
